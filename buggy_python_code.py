@@ -21,6 +21,9 @@ class Person(object):
 
 
 def print_nametag(format_string, person):
+    """
+    comment
+    """
     print(format_string.format(person=person))
 
 
